@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS ruangan (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama_ruangan VARCHAR(255)
+)ENGINE=InnoDB;

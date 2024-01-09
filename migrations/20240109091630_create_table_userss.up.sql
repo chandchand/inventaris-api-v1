@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS user (
+    id INT AUTO_INCREMENT,
+    nama VARCHAR(255),
+    email VARCHAR(255),
+    password VARCHAR(255),
+    PRIMARY KEY (id)
+)ENGINE=InnoDB;

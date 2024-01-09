@@ -1,0 +1,1 @@
+ALTER TABLE inventaris ADD FOREIGN KEY(ruangan_id) REFERENCES ruangan(id);
